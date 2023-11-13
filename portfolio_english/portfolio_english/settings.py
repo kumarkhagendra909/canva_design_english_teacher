@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-wqe@btc%%4h34a1yb#j02q!vz3d1w=4%j5v4j6^#512d&p_rq0
 DEBUG = True
 
 # ALLOWED_HOSTS = ['192.168.1.3']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['replicateenglishportfolio']
 
 
 # Application definition
@@ -130,4 +130,4 @@ MEDIA_URL = "/media/"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
