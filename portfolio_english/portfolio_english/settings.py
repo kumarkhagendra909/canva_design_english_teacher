@@ -26,8 +26,8 @@ SECRET_KEY = "django-insecure-wqe@btc%%4h34a1yb#j02q!vz3d1w=4%j5v4j6^#512d&p_rq0
 DEBUG = True
 
 # ALLOWED_HOSTS = ['192.168.1.3']
-ALLOWED_HOSTS = ['replicateenglishportfolio']
-
+# ALLOWED_HOSTS = ['replicateenglishportfolio']
+ALLOWED_HOSTS = ['https://replicateenglishportfolio-7855df03f6f8.herokuapp.com/']
 
 # Application definition
 
