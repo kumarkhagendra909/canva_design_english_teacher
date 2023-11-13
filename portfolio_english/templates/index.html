@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Portfolio Design</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <h1>Replicate of the Canva Design with some
+            difference</h1>
+    </nav>
+
+    <section id="landingpage" class="container l-cont">
+        <div id="profile_pic" class="profile pic">
+            <img class="profile_pic" width="" height="" src="/media/{{landingdata.profile_pic}}" alt="">
+        </div>
+        <div id="profile-details">
+            <div id="detailsprofile" class="profile-details">
+                <h1>{{landingdata.name}}</h1>
+                <h4>{{landingdata.role}}</h4>
+            </div>
+            <button class="profile-details">Reach Out</button>
+        </div>
+    </section>
+
+    <section id="aboutus" class="container a-cont">
+        <div class="aboutme">
+            <h6>WHO I AM</h6>
+            <h1>About Me</h1>
+            <hr>
+            <div class="adesc">
+                <p>{{aboutmedata.aboutme_description}}</p>
+            </div>
+        </div>
+        <div class="coverpic">
+            <img width="380" height="590" src="/media/{{aboutmedata.cover_pic_for_aboutme}}">
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <div class="section-title">
+            <h1>Experience & Education</h1>
+        </div>
+        <div class="experience-work">
+            {% for expdata in experiencedata %}
+            <div>
+                <hr>
+                <h3>{{expdata.start_year}} -- {{expdata.work_role}}</h3>
+                <h6>{{expdata.work_place}}</h6>
+                <div>
+                    <p>
+                        {{expdata.work_description}}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <div class="container">
+            <div class="skills-title">
+                <h6>What I Can Do</h6>
+                <h1>Skills & Proficiencies</h1>
+            </div>
+            <div class="skills-content">
+                <div class="skills">
+                    <h3>Classroom Management</h3>
+                    <hr>
+                    <ul>
+
+                        <li>{{skillsdata.classroom_point1}}</li>
+                        <li>{{skillsdata.classroom_point2}}</li>
+                    </ul>
+                </div>
+                <div class="module-design">
+                    <h3>Module Design</h3>
+                    <hr>
+                    <ul>
+                        <li>{{skillsdata.module_design_point1}}</li>
+                        <li>{{skillsdata.module_design_point2}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="volunteer-section ">
+        <div class="volunteer-section-content ">
+            <div>
+                <h1>Volunteer Work</h1>
+            </div>
+            <div class="card-container">
+                {% for vol_data in volunteerdata %}
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/media/{{vol_data.volunteer_cover_pic}}" alt="">
+                    </div>
+                    <div class="card-details">
+                        <h4>{{vol_data.volunteer_place}}</h1>
+                            <div>
+                                <p>{{vol_data.volunteer_description}}</p>
+                            </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section container">
+        <div class="contact container">
+            <h1>Reach Out</h1>
+            <div class="contact-detail">
+                <h3>Samuel Clinton</h3>
+                <h6>hello@reallygreatsite.com</h6>
+            </div>
+            <div class="contact-social">
+                <h4>CONNECT WITH ME</h4>
+                <div class="social-icon">
+                    <div class="icon">
+                        <a href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.twitter.com/">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
