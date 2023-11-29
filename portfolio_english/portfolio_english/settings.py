@@ -27,10 +27,7 @@ DEBUG = True # switch to False when hosting
 
 # sub-domain ...pythonanywhere.com
 # ALLOWED_HOSTS = ['khagendramandal07.pythonanywhere.com']
-# ALLOWED_HOSTS = ['192.168.1.3']
-# ALLOWED_HOSTS = ['replicateenglishportfolio']
-ALLOWED_HOSTS = ['https://replicateenglishportfolio-7855df03f6f8.herokuapp.com/']
-
+ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
