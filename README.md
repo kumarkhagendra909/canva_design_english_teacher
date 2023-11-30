@@ -73,3 +73,9 @@ This project is licensed under the MIT License.
 ![Screenshot (778)](https://github.com/kumarkhagendra909/canva_design_english_teacher/assets/57476268/4f587ba9-4378-40a4-9728-ed6c0cea6ed2)
 ![Screenshot (779)](https://github.com/kumarkhagendra909/canva_design_english_teacher/assets/57476268/55d93819-1dc7-4dd6-883b-36edcebe9c16)
 ![Screenshot (780)](https://github.com/kumarkhagendra909/canva_design_english_teacher/assets/57476268/d69c55f7-273f-4802-aee0-ddee7410a4da)
+
+# Mobile View Demo video
+
+https://github.com/kumarkhagendra909/canva_design_english_teacher/assets/57476268/7a260c79-a7b7-4b38-94fd-e5eae4270abb
+
+
