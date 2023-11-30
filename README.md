@@ -7,7 +7,7 @@ The design was inspired by a random design that I found on Canva.
 I made some changes to the design to make it my own work.
 But, still, I don't own the Canva design by any chance as my work.
 
-my copy of the random Canva design link https://www.canva.com/design/DAF1jVClMJU/fBMJqTBa3cTtAIIP6-VX3Q/edit?utm_content=DAF1jVClMJU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+My copy of the random Canva design link https://www.canva.com/design/DAF1jVClMJU/fBMJqTBa3cTtAIIP6-VX3Q/edit?utm_content=DAF1jVClMJU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 deployed link: https://khagendramandal07.pythonanywhere.com/
 
@@ -26,7 +26,7 @@ The following technologies were used to create this website:
 This website includes the following features:
 
 * A responsive layout (for making it responsive I have used media queries)
-* A clean and good looking design
+* A clean and good-looking design
 * A portfolio landing section
 * A about me section
 * A experience & education section
@@ -44,7 +44,7 @@ To install this website project in the local system, you will need to:
 2. Make sure you have installed Python 3.10 or more.
 3. Follow the requirements.txt file to know the required libraries to install if needed.
 4. Run the basic Django terminal command after entering the folder where the manage.py file exists.
-   4.1 I used a virtual environment to use the dependencies while working on the project. path/canva_design_english_teacher/venv (venv is the name of the virtual environment that I used you can use your own) 
+   4.1 I used a virtual environment to use the dependencies while working on the project. path/canva_design_english_teacher/ven (ven is the name of the virtual environment that I used you can use your own) 
    4.1 path/canva_design_english_teacher/portfolio_english/python manage.py makemigrations
    4.2 path/canva_design_english_teacher/portfolio_english/python manage.py migrate
    4.3 path/canva_design_english_teacher/portfolio_english/python manage.py runserver
