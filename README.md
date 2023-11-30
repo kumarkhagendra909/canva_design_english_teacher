@@ -44,11 +44,15 @@ To install this website project in the local system, you will need to:
 2. Make sure you have installed Python 3.10 or more.
 3. Follow the requirements.txt file to know the required libraries to install if needed.
 4. Run the basic Django terminal command after entering the folder where the manage.py file exists.
-   4.1 I used a virtual environment to use the dependencies while working on the project. path/canva_design_english_teacher/ven (ven is the name of the virtual environment that I used you can use your own) 
-   4.1 path/canva_design_english_teacher/portfolio_english/python manage.py makemigrations
-   4.2 path/canva_design_english_teacher/portfolio_english/python manage.py migrate
-   4.3 path/canva_design_english_teacher/portfolio_english/python manage.py runserver
-6. Open your web browser, Search https://127.0.0.1:8000/
+   4.1 I used a virtual environment to use the dependencies while working on the project. path/canva_design_english_teacher/ven (ven is the name of the virtual environment that I used you can use your own).
+
+   4.2 path/canva_design_english_teacher/portfolio_english/python manage.py makemigrations.
+
+   4.3 path/canva_design_english_teacher/portfolio_english/python manage.py migrate.
+
+   4.4 path/canva_design_english_teacher/portfolio_english/python manage.py runserver.
+
+5. Open your web browser, Search https://127.0.0.1:8000/ .
 
 ## Usage
 To use this website, you can simply open the index.html file in a web browser.
