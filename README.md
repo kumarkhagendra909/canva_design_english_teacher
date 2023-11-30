@@ -3,11 +3,11 @@
 ## Introduction
 
 This is a portfolio website that I created using HTML and CSS. 
-The design was inspired by a random design that I found on Canva.
+The design was inspired by a Canva design that I found on Canva.
 I made some changes to the design to make it my own work.
 But, still, I don't own the Canva design by any chance as my work.
 
-My copy of the random Canva design link https://www.canva.com/design/DAF1jVClMJU/fBMJqTBa3cTtAIIP6-VX3Q/edit?utm_content=DAF1jVClMJU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+My copy of Canva design link https://www.canva.com/design/DAF1jVClMJU/fBMJqTBa3cTtAIIP6-VX3Q/edit?utm_content=DAF1jVClMJU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 deployed link: https://khagendramandal07.pythonanywhere.com/
 
